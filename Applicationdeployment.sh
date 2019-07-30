@@ -9,3 +9,5 @@ sudo rm -rf /var/www/html
 echo "Downloading Application"
 sudo git clone -b master git@github.com:Manoj240/Manoj-static.git /var/www/html/
 
+hostname | sudo tee /var/www/html/index.html
+
